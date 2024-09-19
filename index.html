@@ -11,4 +11,43 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  <body>
+    <div class="title-div">
+      <h1>Sorting Visualiser</h1>
+      <p>Enter some numbers and see how each algorithm sorts the array</p>
+    </div>
+    <div class="array-container">
+      <div class="bracket">[</div>
+      <input type="number" class="number-input" max="9" min="1" />
+      <p class="comma">,</p>
+      <input type="number" class="number-input" max="9" min="1" />
+      <p class="comma">,</p>
+      <input type="number" class="number-input" max="9" min="1" />
+      <p class="comma">,</p>
+      <input type="number" class="number-input" max="9" min="1" />
+      <p class="comma">,</p>
+      <input type="number" class="number-input" max="9" min="1" />
+      <div class="bracket">]</div>
+    </div>
+    <div class="button-container">
+      <button class="sort-btn" value="bubble">Bubble Sort</button>
+      <button class="sort-btn" value="selection">Selection Sort</button>
+      <button class="sort-btn" value="insertion">Insertion Sort</button>
+      <button class="sort-btn" value="merge">Merge Sort</button>
+      <button class="sort-btn" value="quick">Quick Sort</button>
+    </div>
+    <div class="sorted-array-container">
+      <div class="bracket">[</div>
+      <div class="output-div"></div>
+      <p class="comma">,</p>
+      <div class="output-div"></div>
+      <p class="comma">,</p>
+      <div class="output-div"></div>
+      <p class="comma">,</p>
+      <div class="output-div"></div>
+      <p class="comma">,</p>
+      <div class="output-div"></div>
+      <div class="bracket">]</div>
+    </div>
+  </body>
 </html>

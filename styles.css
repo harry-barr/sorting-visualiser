@@ -3,4 +3,87 @@
   padding: 0;
   font-family: "Courier New", Courier, monospace;
   box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background: linear-gradient(100deg, #a00303, #720303);
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  gap: 20px;
+}
+.title-div h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.title-div p {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+.array-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 80px;
+  gap: 20px;
+}
+.array-container .bracket,
+.sorted-array-container .bracket {
+  font-size: 6rem;
+}
+.array-container .number-input {
+  border-radius: 45%;
+  height: 20vh;
+  border: none;
+  width: 10vw;
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.array-container .comma {
+  font-size: 3rem;
+  margin-top: 60px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.button-container .sort-btn {
+  padding: 15px;
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.button-container .sort-btn:hover {
+  color: blue;
+}
+
+.sorted-array-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 70px;
 }
